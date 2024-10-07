@@ -1,0 +1,41 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(33,29): error C3861: "srd": identyfikatora nie odnaleziono
+  (kompilowanie pliku źródłowego „ConsoleApplication1.cpp”)
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(33,29):
+      kontekst tworzenia wystąpienia szablonu (najpierw najstarszy) to
+          C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(10,26):
+          podczas kompilowania szablonu klasy „ap::Vector”
+  
+C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(33,29): error C2065: "srd": niezadeklarowany identyfikator
+  (kompilowanie pliku źródłowego „ConsoleApplication1.cpp”)
+  
+C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(6,20): error C2665: „ap::Vector<int>::Vector”: żadna przeciążona funkcja nie może przekonwertować wszystkich typów argumentów
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(37,1):
+      może to być „ap::Vector<int>::Vector(const ap::Vector<int> &)”
+          C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(6,20):
+          „ap::Vector<int>::Vector(const ap::Vector<int> &)”: nie można dokonać konwersji argumentu 1 z „int” do „const ap::Vector<int> &”
+              C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(6,21):
+              Przyczyna: nie można skonwertować z "int" na "const ap::Vector<int>"
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(6,20):
+      podczas próby dopasowania listy argumentów "(int)"
+  
+C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(9,23): error C2665: „ap::Vector<double>::Vector”: żadna przeciążona funkcja nie może przekonwertować wszystkich typów argumentów
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(37,1):
+      może to być „ap::Vector<double>::Vector(const ap::Vector<double> &)”
+          C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(9,23):
+          „ap::Vector<double>::Vector(const ap::Vector<double> &)”: nie można dokonać konwersji argumentu 1 z „int” do „const ap::Vector<double> &”
+              C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(9,24):
+              Przyczyna: nie można skonwertować z "int" na "const ap::Vector<double>"
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(9,23):
+      podczas próby dopasowania listy argumentów "(int)"
+  
+C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(12,28): error C2665: „ap::Vector<std::string>::Vector”: żadna przeciążona funkcja nie może przekonwertować wszystkich typów argumentów
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\Nagłówek.h(37,1):
+      może to być „ap::Vector<std::string>::Vector(const ap::Vector<std::string> &)”
+          C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(12,28):
+          „ap::Vector<std::string>::Vector(const ap::Vector<std::string> &)”: nie można dokonać konwersji argumentu 1 z „int” do „const ap::Vector<std::string> &”
+              C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(12,29):
+              Przyczyna: nie można skonwertować z "int" na "const ap::Vector<std::string>"
+      C:\Users\SuperStudent-PL\source\repos\ConsoleApplication1\ConsoleApplication1.cpp(12,28):
+      podczas próby dopasowania listy argumentów "(int)"
+  
